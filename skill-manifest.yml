@@ -1,10 +1,29 @@
 skills:
   - name: Write Apex Code
-    description: Standards for writing Apex code
+    description: Architectural standards, best practices, and trigger frameworks for writing robust Apex code.
     folder: write-apex-code
+    status: certified
+    tags:
+      - apex
+      - triggers
+      - testing
+      - backend
+
   - name: Create LWC Component
-    description: Best practices for LWC
+    description: Best practices for Lightning Web Components including state management, wire service, and UI/UX standards.
     folder: create-lwc-component
+    status: certified
+    tags:
+      - lwc
+      - frontend
+      - ui
+      - wire-service
+
   - name: Setup DevOps Center
-    description: How to configure DevOps center
+    description: How to configure Salesforce DevOps Center for source-based deployments.
     folder: setup-devops-center
+    status: draft
+    tags:
+      - devops
+      - ci-cd
+      - deployment
