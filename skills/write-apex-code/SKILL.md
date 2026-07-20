@@ -45,12 +45,7 @@ if (!contactsToInsert.isEmpty()) {
 }
 ```
 
-## 3. Query Efficiency and Limits
-- Use SOQL `FOR loops` for querying large data sets to avoid heap size limits.
-- Avoid querying fields you do not need.
-- Filter records using `WHERE` clauses efficiently (use indexed fields where possible).
-
-## 4. Test Classes
+## 3. Test Classes
 - Aim for at least 85% test coverage (Salesforce requires 75%, but we strive for higher).
 - Test classes must use `@isTest`.
 - Create a `TestDataFactory` class to generate mock data. Do NOT use `SeeAllData=true` unless absolutely necessary (e.g., when testing Pricebooks or specific metadata that cannot be mocked).
