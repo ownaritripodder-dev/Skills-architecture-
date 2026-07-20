@@ -1,0 +1,10 @@
+skills:
+  - name: Write Apex Code
+    description: Standards for writing Apex code
+    folder: write-apex-code
+  - name: Create LWC Component
+    description: Best practices for LWC
+    folder: create-lwc-component
+  - name: Setup DevOps Center
+    description: How to configure DevOps center
+    folder: setup-devops-center
