@@ -50,3 +50,7 @@ git push -u origin HEAD   # or: git push origin <branch>
 ### Step 4 — Ask about PR (ALWAYS ask after pushing)
 
 After a successful push, ask the user:
+
+> "Your changes have been pushed. Would you like me to create a Pull Request?"
+
+Only proceed to create a PR if the user says yes.
