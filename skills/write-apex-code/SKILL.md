@@ -57,3 +57,4 @@ if (!contactsToInsert.isEmpty()) {
 - Aim for at least 85% test coverage (Salesforce requires 75%, but we strive for higher).
 - Test classes must use `@isTest`.
 - Create a `TestDataFactory` class to generate mock data. Do NOT use `SeeAllData=true` unless absolutely necessary (e.g., when testing Pricebooks or specific metadata that cannot be mocked).
+- Always use `System.runAs()` to test profile.
