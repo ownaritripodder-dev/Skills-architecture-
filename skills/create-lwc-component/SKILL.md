@@ -42,4 +42,3 @@ export default class AccountViewer extends LightningElement {
 ## 5. Error Handling
 - Wrap imperative Apex calls in `try/catch` blocks.
 - Always provide user-facing error feedback. Use the `ShowToastEvent` to display error messages elegantly in the Lightning Experience.
-- When dealing with wired data, ensure you check `if (error)` and display an appropriate UI fallback.
