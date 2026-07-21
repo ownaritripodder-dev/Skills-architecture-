@@ -61,4 +61,5 @@ if (!contactsToInsert.isEmpty()) {
 - You MUST use Assert class methods (Assert.areEqual, etc.) instead of System.assert().
 
 ## 4. Naming Conventions
-- Use meaningful and descriptive variable names.
+
+- Use meaningful and descriptive
