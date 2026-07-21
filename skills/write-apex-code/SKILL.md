@@ -62,4 +62,4 @@ if (!contactsToInsert.isEmpty()) {
 
 ## 4. Naming Conventions
 
-- Use meaningful and descriptive
+- Use meaningful and descriptive variable names.
