@@ -36,3 +36,13 @@ skills:
       - apex
       - triggers
       - best-practices
+
+  - name: Salesforce Code Review
+    description: Guidelines for reviewing Apex and LWC code for quality, security, and maintainability.
+    path: skills/salesforce-code-review/SKILL.md
+    status: certified
+    tags:
+      - apex
+      - lwc
+      - code-review
+      - best-practices
