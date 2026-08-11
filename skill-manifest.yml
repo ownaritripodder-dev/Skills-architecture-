@@ -1,7 +1,7 @@
 skills:
   - name: Write Apex Code
     description: Architectural standards, best practices, and trigger frameworks for writing robust Apex code.
-    folder: write-apex-code
+    path: skills/write-apex-code/SKILL.md
     status: certified
     tags:
       - apex
@@ -11,9 +11,9 @@ skills:
 
   - name: Create LWC Component
     description: Best practices for Lightning Web Components including state management, wire service, and UI/UX standards.
-    folder: create-lwc-component
+    path: skills/create-lwc-component/SKILL.md
     status: certified
-    tags:
+    tags:        
       - lwc
       - frontend
       - ui
@@ -21,9 +21,18 @@ skills:
 
   - name: Setup DevOps Center
     description: How to configure Salesforce DevOps Center for source-based deployments.
-    folder: setup-devops-center
+    path: incubator/setup-devops-center/SKILL.md
     status: draft
     tags:
       - devops
       - ci-cd
       - deployment
+
+  - name: Apex Trigger Best Practices
+    description: Learn the fundamental best practices for writing Apex triggers in Salesforce.
+    path: incubator/apex-trigger-best-practices/SKILL.md
+    status: draft
+    tags:
+      - apex
+      - triggers
+      - best-practices
