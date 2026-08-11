@@ -21,7 +21,7 @@ skills:
 
   - name: Setup DevOps Center
     description: How to configure Salesforce DevOps Center for source-based deployments.
-    path: incubator/setup-devops-center/SKILL.md
+    path: skills/setup-devops-center/SKILL.md
     status: draft
     tags:
       - devops
@@ -30,8 +30,8 @@ skills:
 
   - name: Apex Trigger Best Practices
     description: Learn the fundamental best practices for writing Apex triggers in Salesforce.
-    path: incubator/apex-trigger-best-practices/SKILL.md
-    status: draft
+    path: skills/create-apex-trigger/SKILL.md
+    status: certified
     tags:
       - apex
       - triggers
